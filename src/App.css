@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+h1{
+  font-weight: bolder;
+  font-size:xx-large;
+}
+.text{
+  color: #b9bbb9;
+  margin-left: 15px;
+}
+p{
+  font-family: sans-serif;
+  color: #787a78;
+  font-weight:550;
+  
+}
+.side{
+  display:flex;
+  background-color: #e4e8e4;
+}
+main{
+  width: 200%;
+  padding: 20px;
+}
+.sidebar{
+  background: #ffffff;
+  color: #0e0202;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  height: 100%;
+  width: 400px;
+ 
+  
+}
+.first{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+
+}
+.Name{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.anker{
+  border-radius: 20px;
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3a3939;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.huge{
+  font-size: 50px;
+  color: rgb(29, 202, 145);
+  
+  
+}
+.link:hover{
+  background:rgb(3, 68, 68);
+  color: #3a3d3a;
+  transition: all 0.5s;
+}
+.active{
+  background: rgb(178, 247, 224);
+  color: rgb(8, 194, 126);
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+
